@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docker-build": "docker build -t express-app .",
+    "docker-run": "docker run --name express-app -p 4000:80 express-app"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   "dependencies": {
     "express": "^4.17.2",
     "md5": "^2.3.0",
+    "sequelize": "^6.15.0",
     "sqlite3": "^5.0.2"
   }
 }
