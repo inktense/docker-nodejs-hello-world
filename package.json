@@ -21,8 +21,6 @@
   "homepage": "https://github.com/inktense/docker-nodejs-hello-world#readme",
   "dependencies": {
     "express": "^4.17.2",
-    "md5": "^2.3.0",
-    "sequelize": "^6.15.0",
-    "sqlite3": "^5.0.2"
+    "redis": "^4.6.5"
   }
 }
